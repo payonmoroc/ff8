@@ -1,0 +1,140 @@
+{
+    "username":" ",
+    "password":" ",
+            "Auto Change Betset": {
+                "Reset to Base Bet": "On",
+                "If Profit": "0.0000001",
+                "If Lose Streak": "10000",
+                "If Win Streak": "1"
+            },
+            "Tools": {
+            "Random Client Seed": "on",
+            "Client Seed": "off",
+            "Basebet Pembagi": {
+                    "Toggle": "OFF",
+                    "Basebet": "10000000"
+                    }
+            },
+            "Target Profit": {
+                    "Target Profit": "10000",
+                        "Relogin If Target Profit": {
+                        "Toggle": "on",
+                        "Interval": "70"
+                            }
+            },
+            "Target Balance": {
+                    "Target Balance": "789000"
+            },
+            "Target Lose" : {
+                    "Target Lose": "1000000"
+            },
+            "Config": [{
+                    "Name Bet Set": " WAE 1",
+                    "Base Bet" : "0.000003",
+                    "If Win": "1",
+                    "If Lose": "1.006",
+                    "Reset If Win Streak": "10000",
+                    "Reset If Lose Streak": "10000",
+                    "Reset If Profit": ".00000001",
+                    "Repeat Jump If Lose": "off",
+                    "Interval": "1",
+                    "Chance": "49",
+                    "Random Chance": {
+                        "Toggle": "on",
+                        "Min": "6",
+                        "Max": "9",
+                        "If Base Bet": "0",
+                        "Reset Chance": "1"
+                    },
+                    "Bet": {
+                        "Bet": "Low",
+                        "Hi / Low": {
+                                "Toggle": "ON",
+                                "If Lose Streak": "3",
+                                    "If Win Streak": "2",
+                                    "If Bets":"0",
+                                    "Random":"off"
+                                }
+                    },
+                    "Jump If Lose": [{
+                                    "Name": "Jump 1",
+                                    "Toggle": "off",
+                                    "If Lose": "1",
+                                    "Number Of Bets": "7"
+                                    },{
+                                    "Name": "Jump 2",
+                                    "Toggle": "off",
+                                    "If Lose": "1.07",
+                                    "Number of Bets": "7"
+                                    },{
+                                    "Name": "Jump 3",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                                    },{
+                                    "Name": "Jump 4",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                                    },{
+                                    "Name": "Jump 5",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                            }]
+                    },{
+                    "Name Bet Set": " WAE 2",
+                    "Base Bet" : "0.000002",
+                    "If Win": "1,01",
+                    "If Lose": "1.008",
+                    "Reset If Win Streak": "1000000",
+                    "Reset If Lose Streak": "36636",
+                    "Reset If Profit": ".00000001",
+                    "Repeat Jump If Lose": "off",
+                    "Chance": "49",
+                    "Random Chance": {
+                        "Toggle": "on",
+                        "Min": "49.51",
+                        "Max": "50",
+                        "If Base Bet": "0",
+                        "Reset Chance": "1"
+                    },
+                    "Bet": {
+                            "Bet": "Low",
+                            "Hi / Low": {
+                                    "Toggle": "ON",
+                                        "If Lose Streak": "3",
+                                        "If Win Streak": "2",
+                                        "If Bets":"0",
+                                        "Random":"on"
+                                }
+                    },
+                    "Jump If Lose": [{
+                                    "Name": "Jump 1",
+                                    "Toggle": "off",
+                                    "If Lose": "1",
+                                    "Number Of Bets": "7"
+                                    },{
+                                    "Name": "Jump 2",
+                                    "Toggle": "off",
+                                    "If Lose": "1.07",
+                                    "Number of Bets": "7"
+                                    },{
+                                    "Name": "Jump 3",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                                    },{
+                                    "Name": "Jump 4",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                                    },{
+                                    "Name": "Jump 5",
+                                    "Toggle": "off",
+                                    "If Lose": "1.21",
+                                    "Number Of Bets": "14"
+                            }]
+                    }]
+            }
+    
