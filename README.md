@@ -1,0 +1,1 @@
+apt-get update -y && apt-get upgrade -y && apt install python3 && apt install python3-pip -y && pip3 install colorama && pip3 install random_user_agent && pip3 install websocket && pip3 install websocket-client
